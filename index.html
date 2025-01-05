@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Dinesh Portfolio</title>
+</head>
+<body>
+    <!-- Scroll Up and Down Buttons -->
+  <button id="scroll-up" class="scroll-btn">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  <button id="scroll-down" class="scroll-btn">
+    <i class="fa-solid fa-arrow-down"></i>
+  </button>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Dinesh <span>Smiley</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#education">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#project">Project</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#course">course</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+                <a href="#links">Home</a>
+                <a href="#about">About</a>    
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">project</a>
+                <a href="#course">Course</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="main-container">
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Dinesh</span></h1>
+                <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">A Front-End Developer is responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.</p>
+                <div class="social-links">
+                    <a href="http://www.linkedin.com/in/smiley-dinesh-9a031a266" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dineshp-2002" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-github"></i></a>
+                    <a href="" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-facebook"></i></a>
+                
+                </div>
+                <div class="btn" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="resumepdf.pdf" download ><button>Download CV </button></a>
+                    
+                </div>
+            </div>
+            <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+                <img src="main1.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <center><p><b><h1>Hello! I'm DINESH P,</h1></b></center> </p>
+                <p>A passionate web developer and designer. I specialize in front-end technologies and love creating beautiful, user-friendly websites. My goal is to blend creativity with functionality to build seamless digital experiences. With experience in HTML, CSS, JavaScript, and modern frameworks, I thrive in collaborative environments and always seek to learn and grow in my field.</p>
+            </div>
+           
+        </div>
+    </section>
+    <!-- Education  Section -->
+    <section id="education">
+        <div class="education-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="1500">
+                    <h3>Master of Computer Application</h3>
+                    <p>University Of Madras, 2022 - 2024</p>
+                    <p> CGPA: 8.2 </p>
+                </div>
+                <div class="timeline-item" data-aos="fade-left" data-aos-duration="1500">
+                    <h3>Bachelor of Computer Science</h3>
+                    <p>University Of Madras, 2019 - 2022</p>
+                    <p>CGPA: 7.9</p>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="1500">
+                    <h3>Higher Secondary School</h3>
+                    <p>St.Marys Matric Higher Secondary School, 2018 - 2019</p>
+                    <p>Percentage: 65</p>
+                </div>
+                <div class="timeline-item" data-aos="fade-right" data-aos-duration="1500">
+                    <h3>Matriculation School</h3>
+                    <p>St.James Matriculation School, 2016 - 2017</p>
+                    <p>Percentage: 86</p>
+                </div>
+            </div>
+    <!-- Skills Section -->
+<!-- skill -->
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-container">
+        <div class="skill">
+            <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+
+            <p>HTML</p>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+
+            <p>CSS</p>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+
+            <p>JavaScript</p>
+        </div>
+        <div class="skill"> 
+            <i class="fa-brands fa-python" style="color: #306998;"></i>
+
+            <p>Python</p>
+        </div>
+        <div class="skill">
+            <i class="fas fa-leaf" style="color: #2600ff;"></i>
+            <p>Django</p>
+        </div>
+        <div class="skill">
+            <i class="fa-brands fa-bootstrap" style="color: #7952B3;"></i>
+
+            <p>Bootstrap</p>
+        </div>
+            <div class="skill">
+                <!-- Placeholder Icon -->
+            <i class="fa-solid fa-flask" style="color: #000;"></i>
+            <p>Flask</p>
+
+            </div>
+        
+
+
+<!-- Projects Section -->
+<section id="project">
+    <div class="projects-container">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-item" data-aos="fade-right" data-aos-duration="1500">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio built with HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                
+            </div>
+            <div class="project-item" data-aos="fade-left" data-aos-duration="1500">
+                <h3>youtube analysis</h3>
+                <p>An youtube analysis the video counts,comments,positive comment,compare the channel and likes.</p>
+                
+            </div>
+            <div class="project-item" data-aos="fade-left" data-aos-duration="1500">
+                <h3>Block website</h3>
+                <p>A blog, short for weblog, is a frequently updated web page used for personal commentary or business content using html,css,js.</p>
+                
+            </div>
+            <div class="project-item" data-aos="fade-left" data-aos-duration="1500">
+                <h3>E Commerce</h3>
+                <p>It is about dress purchasing wewbsite like different material clothes for gents using html,css,js.</p>
+                
+            </div>
+            <div class="project-item" data-aos="fade-left" data-aos-duration="1500">
+                <h3>QR Code Reader</h3>
+                <p>A QR reader can identify a standard QR code based on the three large squares outside the QR code using html,css,js.</p>
+                
+            </div>
+        </div>
+        </div>
+
+</section>
+
+<!-- Courses Section -->
+<section id="course">
+    <div class="courses-container">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Courses</h2>
+        <div class="courses-list">
+            <div class="course-item" data-aos="fade-right" data-aos-duration="1500">
+                <h3>Python Full StaCK developmer</h3>
+                <p>Completed a course on Python Programming, including HTML, CSS, and JavaScript,django,flask.</p>
+            </div>
+            <div class="course-item" data-aos="fade-left" data-aos-duration="1500">
+                <h3>HDCA</h3>
+                <p>Honors Diploma in Computer Application in cse.</p>
+            </div>
+            <div class="course-item" data-aos="fade-left" data-aos-duration="1500">
+                <h3>TYPE WRITTING IN ENGLISH</h3>
+                <p>First Class With Distinction</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you! Feel free to reach out using the form below or through my social media.</p>
+      <form name="submit-to-google-sheet" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+  
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="Enter your email" required />
+  
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+  
+        <button type="submit">Send Message</button>
+      </form>
+      
+      <div class="social-links">
+        <a href="https://github.com/dineshp-2002" target="_blank">GitHub</a>
+        <a href="http://www.linkedin.com/in/smiley-dinesh-9a031a266" target="_blank">LinkedIn</a>
+        <a href="mailto:your-dineshdinu.2726@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
+  
+
+
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0,});
+    </script>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyyK6VSq39R5dW0CL5cohZhtJddMCyfRzBxuLqpYyJyj9xcU3OElKV6-wRJcY9-zMvD/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
